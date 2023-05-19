@@ -1,11 +1,11 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
   align-items: center;
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
   justify-content: center;
 }
 
@@ -37,4 +37,13 @@ form button {
 
 .feito {
   background-color: greenyellow;
+}
+
+
+li button {
+  background-image: url(./trash.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
 }
